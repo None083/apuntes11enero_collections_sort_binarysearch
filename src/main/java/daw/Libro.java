@@ -29,6 +29,7 @@ public class Libro {
     public Libro() {
     }
     
+    //constructor para hacer copias
     public Libro(Libro origen) {
         this.isbn = origen.isbn;
         this.titulo = origen.titulo;
